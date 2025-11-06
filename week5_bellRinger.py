@@ -1,10 +1,14 @@
 # Problem Set 1: Indexing and Slicing Strings
 # Basic Indexing:
 # Given the string magic = 'abracadabra',
+magic = 'abracadabra' 
 # a. Retrieve the 5th character.
+fifth_char = print(magic[4])
 # b. Retrieve the second to last character.
+second_to_last = print(magic[-2])
 # c. Find the first occurrence of the letter 'c'.
-
+first_occurence = print(magic.index('c'))
+last_a_index = print(magic.rindex('a'))
 # Advanced Slicing:
 # Given the string alphabet = 'abcdefghijklmnopqrstuvwxyz',
 # a. Extract the letters 'hij'.
@@ -12,9 +16,9 @@
 # c. Reverse the entire string using slicing.
 
 # Problem Set 2: Extracting Information
-# From Descriptions:
-# Extract the name of the famous personality from the quote "Ask not what your country can do for you — ask what you can do for your country. - John F. Kennedy"
+# From Descriptions:country can do for you — ask what you can do for your country. - John F. Kennedy"
 
+# Extract the name of the famous personality from the quote "Ask not what your 
 # Manipulating Words:
 # Given the string info = "Python is fun. Fun is good. Good is subjective.",
 # a. Extract the word 'subjective' without knowing its exact position.
